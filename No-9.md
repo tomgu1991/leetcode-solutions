@@ -1,5 +1,6 @@
 https://leetcode-cn.com/problems/palindrome-number/
 
+```c++
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -23,3 +24,4 @@ public:
         return true;
     }
 };
+```
