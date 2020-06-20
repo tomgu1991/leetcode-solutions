@@ -1,0 +1,32 @@
+https://leetcode-cn.com/problems/corporate-flight-bookings
+
+```
+//
+// Created by g00522859 on 2020/6/20.
+//
+
+#ifndef CPP_PRIMER_LEETCODE_1109_H
+#define CPP_PRIMER_LEETCODE_1109_H
+#include <vector>
+using std::vector;
+
+class Solution {
+public:
+    vector<int> corpFlightBookings(vector<vector<int>>& bookings, int n) {
+        vector<int> result(n, 0);
+        for (int i = 0; i <bookings.size(); i++) {
+            vector<int> book = bookings[i];
+            result[book[0] - 1] += book[2];
+            if (book[1] + 1 - 1 < n) {
+                result[book[1] + 1 - 1] -= book[2];
+            }
+        }
+        for (int i = 1; i < n; i++) {
+            result[i] = result[i - 1] + result[i];
+        }
+        return result;
+    }
+};
+#endif //CPP_PRIMER_LEETCODE_1109_H
+
+```
