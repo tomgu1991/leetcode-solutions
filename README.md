@@ -1,6 +1,24 @@
 # leetcode-solutions
-* No-1 - https://github.com/tomgu1991/leetcode-solutions/blob/master/No-1.md
-* No-7 - https://github.com/tomgu1991/leetcode-solutions/blob/master/No-7.md
-* No-9 - https://github.com/tomgu1991/leetcode-solutions/blob/master/No-9.md
-* No-13 - https://github.com/tomgu1991/leetcode-solutions/blob/master/No-13.md
-* No-14 - https://github.com/tomgu1991/leetcode-solutions/blob/master/No-14.md
+* c++
+  * 1
+  * 5
+  * 7
+  * 9
+  * 13
+  * 14
+  * 20
+  * 21
+  * 26
+  * 28
+  * 35
+  * 38
+  * 58
+  * 66
+  * 122
+  * 208
+  * 503
+  * 547
+  * 739
+  * 820
+  * 1109
+  * 1904
