@@ -2,7 +2,7 @@ Why leetcode at almost 30 years old?
 
 1. realize that they are important, profoundly. Even though for building applications
 
-2. time to prepare for another job? Manybe
+2. time to prepare for another job? Maybe
 
 # leetcode-solutions
 * c++
